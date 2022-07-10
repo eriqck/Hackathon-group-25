@@ -25,7 +25,7 @@ count = open.count(substring)
 
 #if similar command entered is > 1, user is notified door is already open
 if (count > 1):
-  print("The door is already open", now)
+  print("The door is already open")
 #prompts user input to lock the door
 close = str(input("type the command to close the door\n"))
 if (close == "close"):
@@ -36,7 +36,7 @@ count = close.count(string)
 
 #if similar close commands are entered, user is notified the door is already locked
 if (count > 1):
-  print("The door is already locked", now())
+  print("The door is already locked")
 
 #function to quit the program
 def terminate():
